@@ -1,0 +1,17 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <h1>Message Board Home Page</h1>
+
+        <ul>
+            {% for post in all_posts_list %}
+            <li>
+                {{ post }}
+            </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
